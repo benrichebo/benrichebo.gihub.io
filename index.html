@@ -1,18 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<html>
+<head>
+  <title></title>
+</head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body> 
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
 
-    <!--HTML index commit-->
-    Hello World!
+  <form id="survey-form">
+    <label id="name-label">Name</label><br>
+    <input type="text" id="name" placeholder="Input Name"><br>
 
-    
-    <script  src="js/index.js"></script>
-  </body>
+     <label id="email-label">Email</label><br>
+    <input type="text" id="email" required placeholder="Input Email"><br>
+
+    <label id="number-label">Age</label><br>
+    <input id="number" type="number" required min="18" max="30" placeholder="Input Age"><br>
+
+    <select id="dropdown">
+      <option>Student</option>
+      <option>Fulltime Learner</option>
+    </select><br>
+
+<label>Definitely</label>
+<input type="radio" name="recommend"><br>
+
+<label>Maybe</label>
+<input type="radio" name="recommend"><br>
+
+<label>Frontend </label>
+<input type="checkbox" >
+
+<label>Backend </label>
+<input type="checkbox" ><br>
+
+<label>Any comments or suggestions </label>
+<textarea placeholder="Enter your text here"></textarea>
+  </form>
+<body>
 </html>
